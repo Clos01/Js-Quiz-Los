@@ -11,12 +11,9 @@
   justify-content: center;
   align-items: center;
 }
+
 #viewHighScore {
-  font-size: 35px;
+  font-size: 50px;
   text-decoration: none;
-}
-#viewHighScore:hover {
-  color: rgb(216, 222, 238);
-  background: rgb(228, 174, 87);
-  border-radius: 10px;
+  display: flex;
 }

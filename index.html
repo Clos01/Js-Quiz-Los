@@ -12,7 +12,7 @@
 
     <body class="body">
       <!-- main content -->
-      <div>
+      <div class="main-content">
         <!-- top for highscore link and timer -->
         <div>
           <div>
@@ -26,14 +26,14 @@
           </div>
         </div>
   
-        <div id="everything">
-          <div class="col-md-2"></div>
-          <main class="col-md-8 mt-5">
+        <div id="everything" >
+       
+          <main>
             <!--start screen  -->
-            <div id="start" class="m-2 justify-content-center">
-              <h1 class="font-weight-bold pl-5 pr-5">Coding Quiz Challenge</h1>
-              <p class="p-5">
-                <div class="info">1. You will only have <span>120 seconds</span> to complete the quiz</div>
+            <div id="start">
+              <h1 class="info-title">Coding Quiz Challenge</h1>
+              <p class="info-box">
+                <div class="info">1. You will only have <span class="sec">120 seconds</span> to complete the quiz</div>
                 <div class="info">2. Once you select your answer, you cannot change it.</div>
                 <div class="info">3. Everytime you answer incorrectly your time will get reduced.</div>
                 <div class="info">4. You cannot leave when you start the quiz.</div>
@@ -43,7 +43,7 @@
               <button
                 type="button"
                 id="start-quiz-button"
-                class="btn btn-info ml-5 align-center"
+                class="button"
               >
                 Start Quiz
               </button>
@@ -53,9 +53,8 @@
             <div id="questionDiv" style="display: none">
               <p
                 id="questionTitle"
-                class="pl-5 ml-2 pt-5 justify-content-center font-weight-bold"
               ></p>
-              <div class="pl-5 pt-2 pb-3 m-2 justify-content-center">
+              <div >
                 <p><button id="btn0" class="btn btn-dark"></button></p>
                 <p><button id="btn1" class="btn btn-dark"></button></p>
                 <p><button id="btn2" class="btn btn-dark"></button></p>
@@ -67,12 +66,12 @@
   
             <!-- score div -->
             <div
-              class="pl-5 ml-2 pt-5 justify-content-center font-weight-bold"
+
               id="summary"
               style="display: none"
             >
-              <div class="col-2"></div>
-              <div class="col-8 text-left">
+              
+              <div >
                 <h2 class="font-weight-bold pt-2 pb-3 m-2">
                   Your final score is <span id="finalScore"></span> !
                 </h2>
@@ -81,20 +80,20 @@
                     Enter your initials:
                     <input
                       id="initialInput"
-                      class="form-control pt-2 pb-3 mt-2"
+                      class="form-control "
                       type="text"
                     />
                     <button
                       type="submit"
                       id="submitInitialBtn"
-                      class="btn btn-info mt-3"
+                    
                     >
                       Submit
                     </button>
                   </p>
                 </form>
               </div>
-              <div class="col-2"></div>
+              
             </div>
   
             <!-- highscores section -->
@@ -103,25 +102,25 @@
               class="pl-5 ml-4 pt-5 justify-content-center font-weight-bold"
               style="display: none"
             >
-              <h2 class="font-weight-bold pt-2 pb-3 mb-2">High Scores</h2>
+              <h2 class="font-weight-bold">High Scores</h2>
   
               <div
                 id="listOfHighScores"
-                class="list-group list-group-flush pt-2 pb-3 mb-2"
+                class="list-group list-group-flush"
               ></div>
   
               <!-- append each highscore as new paragraph here -->
               <p>
                 <button
                   type="submit"
-                  class="btn btn-info mt-3 mr-3"
+                  class="btn btn-info "
                   id="goBackBtn"
                 >
                   Go Back
                 </button>
                 <button
                   type="submit"
-                  class="btn btn-info mt-3"
+                
                   id="clearHighScoreBtn"
                 >
                   Clear High Scores
