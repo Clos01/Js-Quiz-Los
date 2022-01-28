@@ -1,10 +1,7 @@
 * {
   background: rgb(240, 237, 232);
 }
-.clos-header {
-  font-size: 55px;
-  display: flex;
-}
+
 .body {
   min-height: 100vh; /* height of the browser viewport */
   display: flex;
@@ -22,4 +19,153 @@
   color: rgb(216, 222, 238);
   background: rgb(228, 174, 87);
   border-radius: 10px;
+}
+#timer {
+  font-size: 55px;
+  cursor: not-allowed;
+  padding: 10px;
+  color: red;
+}
+.info-title {
+  color: rgb(18, 144, 144);
+  font-size: 50px;
+}
+.info {
+  font-size: 35px;
+  color: rgb(27, 72, 144);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: white;
+  padding: 35px 45px;
+  border-radius: 15px;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  margin-bottom: 15px;
+}
+.sec {
+  background-color: white;
+  font-weight: 800;
+  color: black;
+}
+.button {
+  display: flex;
+  font-size: 30px;
+  font-weight: 500;
+  color: #007bff;
+  padding: 15px 30px;
+  background-color: rgb(212, 207, 207);
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 35px;
+}
+
+.button:hover {
+  color: black;
+  background-color: wheat;
+}
+.button:active {
+  background-color: wheat;
+  color: rgb(26, 22, 17);
+  box-shadow: 0 5px #666;
+  transform: translatey(4px);
+}
+#questionTitle {
+  font-size: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rosybrown;
+  font-weight: 900;
+}
+#btn0,
+#btn1,
+#btn2,
+#btn3 {
+  font-size: 35px;
+  border-style: none;
+  background-color: teal;
+  color: white;
+  border-radius: 15px;
+  width: 50rem;
+  text-justify: center;
+  cursor: pointer;
+}
+#btn0:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+  background-color: blanchedalmond;
+  color: black;
+}
+#lineBreak {
+  height: 15px;
+  width: 50rem;
+  position: fixed;
+
+  background-color: rgb(17, 5, 5);
+  border-radius: 15px;
+}
+#answerCheck {
+  font-size: 45px;
+  font-family: fantasy;
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(83, 78, 78);
+  font-weight: 800;
+}
+#timesUp {
+  font-size: 35px;
+  color: red;
+  background-color: rgb(212, 207, 207);
+  opacity: 0.5;
+  text-align: center;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.font-weight-bold {
+  font-size: 45px;
+  font-family: monospace;
+  color: #ff7505;
+  font-weight: 700;
+}
+.intials-form {
+  font-size: 45px;
+  font-family: "Neonderthaw";
+}
+#initialInput {
+  padding: 10px;
+  width: 20rem;
+  border: 5px solid #666;
+  border-radius: 5px;
+  font-size: 25px;
+}
+#submitInitialBtn {
+  padding: 18px;
+  width: 10rem;
+  border: none;
+  background-color: aquamarine;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 25px;
+}
+#submitInitialBtn:hover {
+  background-color: blanchedalmond;
+  color: black;
+}
+#goBackBtn,
+#clearHighScoreBtn {
+  font-size: 35px;
+  border: none;
+  background: rgba(149, 5, 5, 0.568);
+  color: aliceblue;
+  opacity: 1;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#goBackBtn:hover,
+#clearHighScoreBtn:hover {
+  background-color: blanchedalmond;
+  color: black;
 }
