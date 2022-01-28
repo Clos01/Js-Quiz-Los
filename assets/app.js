@@ -160,7 +160,7 @@ function checkAnswer(answer) {
     totalTime -= 10;
     timeLeft.textContent = totalTime;
     answerCheck.textContent =
-      "Wrong! The correct answer is: " + questions[questionIndex].answer;
+      "Wrong! The correct answer was: " + questions[questionIndex].answer;
   }
 
   questionIndex++;
@@ -187,4 +187,16 @@ function chooseC() {
 
 function chooseD() {
   checkAnswer(3);
+}
+
+// when all questions are answered or timer reaches 0, game over
+function gameOver() {
+  summary.style.display = "block";
+  questionDiv.style.display = "none";
+  startDiv.style.display = "none";
+  timer.style.display = "none";
+  timesUp.style.display = "block";
+
+  // show final score
+  finalScore.textContent = correctAns;
 }

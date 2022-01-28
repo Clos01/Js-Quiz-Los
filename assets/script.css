@@ -2,7 +2,7 @@
   background: rgb(240, 237, 232);
 }
 .clos-header {
-  font-size: 35px;
+  font-size: 55px;
   display: flex;
 }
 .body {
@@ -13,7 +13,8 @@
 }
 
 #viewHighScore {
-  font-size: 50px;
+  font-size: 65px;
   text-decoration: none;
   display: flex;
+  margin-bottom: 25px;
 }
