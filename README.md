@@ -6,7 +6,7 @@ This is a timed coding quiz with multiple-choice questions. This app is written 
 
 Click "Start Quiz"
 
-Timer on the top right will start to run
+Timer on the lower left will start to run
 Total time is 120 second with 4 questions in total
 The "View High Scores" link on the top left will direct the user to view all current high scores
 A series of questions are presented with multiple choice answers
