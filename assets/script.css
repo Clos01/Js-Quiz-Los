@@ -18,3 +18,8 @@
   display: flex;
   margin-bottom: 25px;
 }
+#viewHighScore:hover {
+  color: rgb(216, 222, 238);
+  background: rgb(228, 174, 87);
+  border-radius: 10px;
+}
