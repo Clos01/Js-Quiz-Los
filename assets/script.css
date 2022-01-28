@@ -1,0 +1,22 @@
+* {
+  background: rgb(240, 237, 232);
+}
+.clos-header {
+  font-size: 35px;
+  display: flex;
+}
+.body {
+  min-height: 100vh; /* height of the browser viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#viewHighScore {
+  font-size: 35px;
+  text-decoration: none;
+}
+#viewHighScore:hover {
+  color: rgb(216, 222, 238);
+  background: rgb(228, 174, 87);
+  border-radius: 10px;
+}

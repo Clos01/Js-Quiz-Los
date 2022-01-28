@@ -7,13 +7,15 @@
     <title>Js Quiz</title>
     <link rel="stylesheet" href="assets/script.css" />
   </head>
-  <body>
-    <body>
+ 
+
+
+    <body class="body">
       <!-- main content -->
-      <div class="container-fluid">
+      <div>
         <!-- top for highscore link and timer -->
-        <div class="row">
-          <div class="col text-left">
+        <div>
+          <div>
             <a href="#" id="viewHighScore">View High Scores</a>
           </div>
           <div id="timer" class="col text-right">
@@ -24,17 +26,19 @@
           </div>
         </div>
   
-        <div id="everything" class="row text-left">
+        <div id="everything">
           <div class="col-md-2"></div>
           <main class="col-md-8 mt-5">
             <!--start screen  -->
             <div id="start" class="m-2 justify-content-center">
               <h1 class="font-weight-bold pl-5 pr-5">Coding Quiz Challenge</h1>
               <p class="p-5">
-                Let's test your knowledge on JavaScript fundamentals! Try to
-                answer the followding code-related questions within the time
-                limit. Keep in mind that incorrect answers will penalize your time
-                by ten seconds!
+                <div class="info">1. You will only have <span>120 seconds</span> to complete the quiz</div>
+                <div class="info">2. Once you select your answer, you cannot change it.</div>
+                <div class="info">3. Everytime you answer incorrectly your time will get reduced.</div>
+                <div class="info">4. You cannot leave when you start the quiz.</div>
+                <div class="info">5.You will get points  based on the correct answers.</div>  
+              </div>
               </p>
               <button
                 type="button"
